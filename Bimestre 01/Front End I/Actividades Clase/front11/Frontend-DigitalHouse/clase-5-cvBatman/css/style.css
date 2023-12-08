@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 8px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.lista-datos-personales li span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul.datos li {
+    line-height: 25px;
+}
+
+ul.datos li span {
+    margin-left: 80px;
+}
+
+footer {
+    background-color: #005677;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 37px;
+    bottom: 0;
+    text-align: center;
+}
+

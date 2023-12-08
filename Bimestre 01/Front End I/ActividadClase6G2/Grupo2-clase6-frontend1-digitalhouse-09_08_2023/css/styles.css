@@ -1,0 +1,20 @@
+.container {
+    text-align: center;
+}
+
+.batman {
+    text-align: center;
+}
+
+h1.titulo {
+    color: rgb(56, 113, 218);
+    background-color: rgb(195, 195, 195);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3.subtitulo {
+    color: rgb(56, 113, 218);
+    background-size: 60px;
+    background-color: rgb(195, 195, 195);
+}

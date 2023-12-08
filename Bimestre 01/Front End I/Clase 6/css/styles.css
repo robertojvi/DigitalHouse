@@ -1,0 +1,23 @@
+h1 {
+    font-size: 58px;
+    text-align: center;
+    background-color: beige;
+}
+
+p {
+    letter-spacing: 2px;
+    font-family: 'Borel', cursive;
+}
+
+div {
+    height: 500px;
+    width: 500px;
+    border: 1px solid red;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide.jpg/1200px-Nelumno_nucifera_open_flower_-_botanic_garden_adelaide.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+}
+
+

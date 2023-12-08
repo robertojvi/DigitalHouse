@@ -1,0 +1,20 @@
+  387  git init
+  388  git remote add origin https://github.com/robertojvi/Checkpoint-RobertoVelez.git
+  389  cd Checkpoint-RobertoVelez
+  390  touch main.js index.html
+  391  git add .
+  392  git commit -m "commit 01 de robertoVelez"
+  393  git push origin main
+  394  git branch feature
+  395  git switch feature
+  396  mkdir Hardware Software SeguridadInformatica
+  397  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  398  git add .
+  399  git commit -m "commit 02 de robertoVelez"
+  400  git push origin feature
+  401  git switch main
+  402  mv main.js resumenHardware.txt
+  403  mv index.html resumenSoftware.txt
+  404  touch comandos.txt
+  405  history
+  406  history -20

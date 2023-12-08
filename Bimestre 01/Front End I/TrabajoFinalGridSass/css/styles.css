@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+header nav {
+  width: 1440px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  padding: 5px 30px;
+  margin: 0px 50px;
+  background-color: #8b48bf;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+  left: 10%;
+}
+
+.botonNav {
+  display: flex;
+  justify-content: end;
+}
+
+.infoEvento {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+h1 {
+  box-shadow: 5px 10px 5px 4px cyan; /* Genera una sombra de color cyan alrededor del texto */
+}
+
+.contenedorBoton {
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+
+.boton {
+  width: 10px;
+  padding: 2%;
+  background-color: #8b48bf;
+  border-radius: 50px;
+  border-style: none;
+  box-shadow: -5px 0 0 0 cyan;
+  color: white;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  background-color: #8b48bf;
+  color: white;
+  margin: 3%;
+}
+.productos .productosTitulo {
+  width: 50%;
+  margin: 3% 5%;
+  font-size: 36px;
+}
+.productos .productosInfo {
+  width: 50%;
+  margin: 3% 0;
+}
+
+.description {
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 5%;
+}
+
+.down {
+  width: 50%;
+}
+
+.details {
+  width: 50%;
+  display: flex;
+  align-items: start;
+}
+
+.content {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  width: 15%;
+  padding: 2% 5%;
+  background-color: #8b48bf;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+}
+
+.month {
+  margin: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 0;
+}
+.month button {
+  width: 150px;
+  padding: 2% 2%;
+  background-color: #8b48bf;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+}
+
+.frame {
+  margin: 0;
+  margin-top: 60px;
+  background-color: #FAFAFA;
+  gap: 0px;
+}
+.frame img {
+  position: relative;
+  bottom: 30px;
+  border-radius: 50%;
+}
+
+.year {
+  background-color: #8b48bf;
+  color: white;
+  padding: 3px;
+}
+.year .data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+}
+.year .yearTitle {
+  font-size: 36px;
+}
+.year .yearButton {
+  width: 150px;
+  padding: 2% 2%;
+  background-color: white;
+  border-radius: 50px;
+  border-style: none;
+  color: #8b48bf;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

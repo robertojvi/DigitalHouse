@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    box-shadow: 0px 6px 6px 0px black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header p {
+    background-color: #1CD1B0;
+    padding: 10px 40px;
+}
+header img {
+    width: 5%;
+}
+
+#navbar {
+    background-color: #001D2D;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 5%;
+    padding: 5px;
+}
+
+a {
+    color: white;
+}
+
+header h1 {
+    background-color: #00669F;
+    padding: 20px;
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.encabezado {
+    background: #1CD1B0;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+}
+
+.contenedor {
+    align-content: space-between;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    height: auto;
+    background: #FFF;
+    margin: 0px 0px 20px 0px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 25%;
+    align-content: space-between;
+    margin: 15px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fondo {
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.foto {
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 70px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.icono {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    align-items: flex-start;
+    width: 10%;
+    height: 5%;
+    z-index: 1;
+}
+
+.texto {
+    position: relative;
+    top: -70px;
+    color: #333;
+    font-family: Roboto;
+    height: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    text-align: left;
+}
+
+h2 {
+    position: relative;
+    top: -70px;
+    text-align: center;
+}
+
+.boton {
+    position: relative;
+    top: -70px;
+    background: #00669F;
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    width: 30%;
+    height: 60px;
+    margin: auto;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 20px;
+    background: #00669F;
+    width: 100%;
+    height: 51px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF9F9;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.mas {
+    background-color: #00669F;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+}
+
+.espacio {
+    height: 200px;
+}
+
+@media (max-width: 800px) {
+    .contenedor {
+        align-content: space-around;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        background: #FFF;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .caja {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 40%;
+        align-content: space-between;
+        margin: 15px;
+        background: #F3F3F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    footer {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    text-align: left;
+    margin: 15px;
+    padding-top: 8px;
+}
+
+#enviar {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: #1CD1B0;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: #00669F;
+    border-radius: 20px;
+    color: white
+}
+
+form h3,
+form p {
+    padding: 5px;
+
+}
+
+textarea {
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    
+}
+
+.contenedorcampos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.contenedorgeneral {
+    display: flex;
+    gap: 5%;
+    padding: 5px;
+}
+
+label {
+    text-align: left;
+}
+
+#enviar:hover {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+select {
+    border-radius: 10px;
+    height: 10%;
+}
+
+#nombre, #fecha, #archivo {
+    height: 10%;
+}

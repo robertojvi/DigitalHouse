@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header > div {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container-promociones {
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    padding: 10px 27px;
+}
+
+.container-titulo {
+    background-color: #00669F;
+    width: 100%;
+    height: 100px;
+    padding: 28px;
+}
+
+nav {
+    background-color: #001D2D;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 10px 15px;
+}
+
+/*Estilos de las cards*/
+.container-cards {
+    margin-top: 250px;
+    margin-left: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-cards .cards {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 530px;
+    margin: 0 15px;
+}
+
+.banner-card-image {
+    position: relative;
+}
+
+.banner-card-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.container-cards .container-icon-fav {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+.cards .profile-photo-card {
+    max-width: 100px;
+    max-height: 100px;
+    position: absolute;
+    bottom: -25%;
+    margin: 0 96px;
+}
+
+.cards .profile-photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.content-card {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 72px; 
+}
+
+.content-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-card p {
+    font-size: 16px;
+}
+
+.content-card button { 
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 16px 32px;
+    margin-top: 32px;
+    margin-left: 72px;
+    border: none;
+}
+
+footer {
+    background-color: #00669F;
+    width: 100%;
+    height: 50px;
+    margin-top: 125px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    color: #F3F3F3;
+    padding: 16px;  
+}
+
+

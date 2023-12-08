@@ -1,0 +1,25 @@
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: bisque;
+}
+
+$alto: 200px;
+.caja{
+    width: $alto;
+    height: $alto;
+    background-color: crimson;
+    &:hover{
+        background-color: orange;
+    }
+    &-secundaria{
+        width: $alto;
+        height: $alto;
+        background-color: green;
+        &-repuesto{
+            width: $alto;
+            height: $alto;
+            background-color: blueviolet;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos del header */
+header {
+    width: 100%;
+}
+
+.logo-marca-personal {
+    width: 50px;
+    height: 50px;
+}
+.logo-marca-personal img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Estilos del Hero*/
+#hero {
+    width: 100%;
+    position: relative;
+}
+
+.cover-profile {
+    width: 100%;
+    height: 300px;
+}
+
+.cover-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-avatar {
+   width: 100%;
+   height: 200px;
+   position: absolute;
+   top: 200px;
+   text-align: center;
+}
+
+.container-avatar img {
+    width: 200px;
+}
+
+.hero-information {
+    margin-top: 130px;
+}
+.hero-information p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-information p.description {
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* Estilos de perfil */
+.section {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.section h2 {
+    background-color: #fa1759;
+    color: aliceblue;
+}
+
+.perfil p {
+    margin-top: 16px;
+}
+
+.section-article {
+    margin-top: 16px;
+}
+
+.section-article .titulo-articulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-article .fecha {
+    font-style: italic;
+    color: darkgray;
+}
+
+.section-article ul {
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #fa1759;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+footer img {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    filter: invert(100%)
+}
+

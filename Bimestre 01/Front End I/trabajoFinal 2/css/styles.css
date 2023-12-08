@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    width: 480px;
+    margin: auto;
+    /* centrar en la página */
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0;
+}
+
+header img {
+    width: 110px;
+    height: 25px;
+
+}
+
+header .menuDesplegable {
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.botoncontacto {
+    text-align: center;
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 50px;
+    /* padding: 2% 8%; */
+}
+
+.botoncontacto:hover {
+    background-color: black;
+}
+/* contenerdor Evento */
+.contenedorEvento {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 83%;
+}
+
+.contenedorEvento .tituloEvento {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+    text-align: right;
+    color: #232C50;
+    padding-top: 10%;
+}
+
+.contenedorEvento .infoEvento {
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+.botonEvento {
+    position: relative;
+    left: 60%;
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 50px;
+    padding: 3% 12%;
+}
+
+.botonEvento:hover {
+    background-color: black;
+}
+
+/* contenedor info tenistas */
+.infoTenistas {
+    margin-top: 1.5rem;
+    background-color: #3CDDF3;
+    padding: 5% 3%;
+}
+
+.infoTenistas .tituloInfoTenistas {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 5% 0%;
+}
+
+.infoTenistas .textoInfoTenistas {
+    color: white;
+}
+
+.textoInfoTenistas::after {
+    content: "Manage provides all the functionality you teas needs, without the complexity. Our software is tailor-made for modern digital product teams";
+}
+
+
+/* contenedor contenido */
+.contenido {
+
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+.contenidoTitulo {
+    display: flex;
+}
+
+.contenidoTitulo button {
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 50px;
+    padding: 2% 5%;
+    font-weight: bold;
+}
+
+.contenidoTitulo .marcoTexto {
+    background-color: rgba(139, 72, 191, 0.30);
+    padding-left: 5%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.contenidoTitulo p {
+    position: relative;
+    top: 12px;
+    left: 3px;
+    font-weight: bold;
+    padding-left: 5%;
+    color: #323851;
+}
+
+.contenidoTexto {
+    padding: 5% 0;
+    line-height: 2rem;
+}
+
+/* contenedor mes */
+
+.contenedorMes,
+.contenedorMes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorMes h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedorMes div img {
+    position: relative;
+    bottom: 60px;
+    border-radius: 50%;
+    width: 20%;
+    margin: 5%;
+}
+
+.contenedorMes .tituloMes {
+    font-weight: bold;
+}
+
+.contenedorMes .textoMes {
+    margin: 0 5%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.botonMes {
+    text-align: center;
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 50px;
+    padding: 3% 12%;
+}
+
+/* Pseudo clase */
+.botonMes:hover {
+    font-weight: bold;
+}
+
+.marco {
+    position: relative;
+    top: 80px;
+    background-color: #FAFAFA;
+    margin-bottom: 100px;
+}
+
+/* ocultar elementos */
+.ocultar {
+    position: absolute;
+    top: -10000px;
+}
+
+/* mostrar elementos ocultos al hacer hover, se usa pseudo clase */
+#oculto:hover .ocultar {
+    position: static;
+    top: 0;
+}
+
+/* contenedor equipos */
+.equipos {
+    display: flex;
+    flex-direction: column;
+    background-color: #3CDDF3;
+    align-items: center;
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.tituloEquipos {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.equipos .botonEquipos {
+    background-color: #232C50;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 3% 12%;
+    margin-top: 10%;
+}
+
+/* formulario */
+form {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1E1E26;
+    padding: 10% 0;
+}
+
+form .botonEnvio {
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 50px;
+    padding: 3% 8%;
+}
+
+form #email {
+    border-radius: 50px;
+    width: 60%;
+}
+
+/* footer */
+footer .enlaces {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E26;
+}
+
+.enlaces a {
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.iconos {
+    display: flex;
+    background-color: #1E1E26;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+footer {
+    background-color: #1E1E26;
+}
+
+.finFooter img {
+    width: 110px;
+    height: 40px;
+    margin: auto;
+}
+
+.finFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #8C8C94;
+    font-size: 1rem;
+    margin: 10%;
+}
+
+.finFooter p {
+    margin: 10%;
+}
+
+/* Estilos para sitio Desktop */
+
+@media screen and (min-width: 1440px) {
+
+    /* Cambio de tamaño de body */
+    body {
+        width: 1440px;
+        margin: auto;
+    }
+
+    /* header y navbar */
+    #navbar,
+    #navbar a {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        gap: 2%;
+        padding: 5px;
+        color: #242E52;
+    }
+
+    .botoncontacto {
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 50px;
+        padding: 1% 3%;
+    }
+
+
+    /* Oculta elementos */
+    .ocultar {
+        position: static;
+        top: 0;
+    }
+
+    #imgMenu,
+    .ocultaDesk {
+        position: absolute;
+        top: -10000px;
+    }
+
+    /* cambios en elementos evento */
+    .contenedorEvento {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedorEvento img {
+        width: 60%;
+    }
+
+    .contEvento {
+        width: 40%;
+    }
+
+    /* cambios en elementos sección tenistas */
+    .infoTenistas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #8B48BF;
+        padding: 0;
+    }
+
+    .infoTenistas .textoInfoTenistas,
+    .infoTenistas .tituloInfoTenistas {
+        width: 40%;
+        padding: 2% 0;
+    }
+
+    .textoInfoTenistas::after {
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.";
+    }
+
+    .marcoContenido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenido {
+        width: 50%;
+        padding: 0;
+        margin: 5% 0 0 0;
+    }
+
+    .contenidoTitulo .marcoTexto {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    /* sección jugadores */
+    .playersContainer {
+        display: flex;
+
+    }
+
+    .marcoDesk {
+        text-align: center;
+        position: relative;
+        top: 80px;
+        background-color: #FAFAFA;
+        margin: 5px;
+    }
+
+    .imgMesDesk {
+
+        position: relative;
+        top: -60px;
+        border-radius: 50%;
+        width: 20%;
+        margin: 5%;
+    }
+
+    .tituloMesDesk {
+        font-weight: bold;
+    }
+
+    .playerMes h2 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .playerMes button {
+        margin-top: 10%;
+        margin-left: 46%;
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 50px;
+        padding: 1% 3%;
+
+
+    }
+
+    /* sección equipos */
+    .equipos {
+        background-color: #8B48BF;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3% 0 0 0;
+        height: 10%;
+    }
+
+    .equiposDesk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .equiposDesk .tituloEquipos {
+        position: static;
+        width: 100%;
+    }
+
+    .equipos .botonEquipos {
+        background-color: white;
+        color: #8B48BF;
+        font-weight: bold;
+        border-radius: 50px;
+        padding: 2% 8%;
+        margin-top: 3%;
+    }
+
+    /* cambios en footer */
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .formText {
+        color: #8C8C94;
+        width: 20%;
+        margin-right: 10%;
+    }
+
+    footer .iconos i {
+        padding: 0 15px;
+        margin-top: 50%;
+    }
+
+    footer .enlaces {
+        position: relative;
+        right: 100px;
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    .enlaces a:link,
+    .enlaces a:visited,
+    .enlaces a:active {
+        color: white;
+    }
+
+    /* Pseudo Elemento  */
+    .textAfter::after {
+        content: " All Rights Reserved";
+    }
+}

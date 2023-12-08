@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Actividad clase 11 Roberto Vélez</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://kit.fontawesome.com/c9242a05e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <p>20% de descuento en todos los productos!</p>
+    <h1><img src="./img/LogoTienda.png" alt="logo tienda">Nombre Tienda</h1>
+    <nav id="navbar">
+      <li><a href="index.html">Contacto</a></li>
+      <li><a href="form.html">Registrarme</a></li>
+      <li><a href="index.html">Enviar</a></li>
+    </nav>
+  </header>
+  <div class="espacio"></div>
+  <form action="#">
+    <main class="main">
+      <h3 class="tituloForm">Añadí tu super!</h3>
+      <p>Agrega tu personaje favorito completando las opciones</p>
+      <div class="contenedorgeneral">
+        <div class="contenedorcampos">
+          <label for="nombre">*Nombre</label>
+          <input type="text" name="nombre" id="nombre" required>
+          <br>
+          <label for="fecha">Fecha</label>
+          <input type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa">
+          <br>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+        </div>
+        <div class="contenedorcampos">
+          
+          <label for="especie">*Especie</label>
+                    <select name="especie" id="especie" class="select-especie" required>
+                        <option value="aire">Aire</option>
+                        <option value="tierra">Tierra</option>
+                        <option value="agua">Agua</option>
+                        <option value="fuego">Fuego</option>
+                        <option value="avatar">Avatar</option>
+                    </select>
+          <br>
+          <br>
+          <label for="archivo">Agregar Foto</label>
+          <input type="file" name="archivo" id="archivo">
+          <div class="listas">
+            <div class="listainterna">
+              <label for="selecCheck">Poderes</label><br>
+              <input type="checkbox" name="selecCheck" value="volar">
+              <label for="selecCheck">Volar</label>
+            </div>
+            <div class="listainterna">
+              <input type="checkbox" name="selecCheck" value="superinteligencia">
+              <label for="selecCheck">Superinteligencia</label>
+            </div>
+            <div>
+              <input type="checkbox" name="selecCheck" value="vistaRayoLaser">
+              <label for="selecCheck">Vista de rayo laser</label>
+            </div>
+            <div>
+              <input type="checkbox" name="selecCheck" value="billeteraGorda">
+              <label for="selecCheck">Billetera gorda</label>
+            </div>
+            <hr>
+            <div class="listainterna">
+              <label for="selecCheck">Tipo de personaje</label><br>
+              <input type="radio" name="selecCheck" value="heroe">
+              <label for="selecCheck">Heroe / Heroina</label>
+            </div>
+            <div class="listainterna">
+              <input type="radio" name="selecCheck" value="villano">
+              <label for="selecCheck">Villano / Villana</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="submit" value="Añadir" name="enviar" id="enviar">
+    </main>
+  </form>
+  <div class="espacio"></div>
+
+  <footer>
+    <h3>Todos los derechos reservados a ROBERTO VELEZ</h3>
+  </footer>
+</body>
+
+</html>

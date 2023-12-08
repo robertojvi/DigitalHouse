@@ -1,0 +1,178 @@
+$colorDesk: #8b48bf;
+$colorBack: #FAFAFA;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: auto;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    nav {
+        width: 1440px;
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    padding: 5px 30px;
+    margin: 0px 50px;
+    background-color: $colorDesk;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    left: 10%;
+    
+}
+
+.botonNav {
+    display: flex;
+    justify-content: end;
+}
+
+.infoEvento{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+h1{
+    box-shadow: 5px 10px 5px 4px cyan; /* Genera una sombra de color cyan alrededor del texto */
+}
+
+.contenedorBoton{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+}
+.boton {
+    width: 10px;
+    padding: 2%;
+    background-color: $colorDesk;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: -5px 0 0 0 cyan;
+    color: white;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around;
+    background-color: $colorDesk;
+    color: white;
+    margin: 3%;
+    .productosTitulo{
+        width: 50%;
+        margin: 3% 5%;
+        font-size: 36px;
+    }
+    .productosInfo{
+        width: 50%;
+        margin: 3% 0;
+    }
+}
+
+.description{
+    background-color: $colorBack;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+
+.down{
+    width: 50%;
+}
+
+.details{
+    width: 50%;
+    display: flex;
+    align-items: start;
+}
+.content{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers{
+    width: 15%;
+    padding: 2% 5%;
+    background-color: $colorDesk;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+}
+
+.month{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0;
+    button{
+        width: 150px;
+        padding: 2% 2%;
+        background-color: $colorDesk;
+        border-radius: 50px;
+        border-style: none;
+        color: white;
+    }
+}
+
+.frame{
+    margin: 0;
+    margin-top: 60px;
+    background-color: #FAFAFA;
+    gap: 0px;
+    img{
+        position: relative;
+        bottom: 30px;
+        border-radius: 50%;
+    }
+}
+
+.year {
+    background-color: $colorDesk;
+    color: white;
+    padding: 3px;
+    .data{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3%;
+    }
+    .yearTitle{
+        font-size: 36px;
+    }
+    .yearButton{
+        width: 150px;
+        padding: 2% 2%;
+        background-color: white;
+        border-radius: 50px;
+        border-style: none;
+        color: $colorDesk;
+    }
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

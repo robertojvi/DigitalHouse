@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Final Front End 1 - Roberto Vélez / Juliana Forero</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+  <!-- encabezado -->
+  <header>
+    <img src="./img/Sportit.png" alt="">
+    <!-- menu desplegable -->
+    <div class="dropdown ocultaDesk">
+      <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="./img/menuDesplegable.png" alt="" class="menuDesplegable " id="imgMenu">
+      </button>
+      <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Sports</a>
+        <a class="dropdown-item" href="#">Products</a>
+        <a class="dropdown-item" href="#">About Us</a>
+        <a class="dropdown-item" href="#">Trainning</a>
+        <a class="dropdown-item" href="#">Community</a>
+      </div>
+    </div>
+
+    <!-- Menu para ser mostrado en Desktop -->
+    <nav id="navbar" class="ocultar">
+      <li><a href="#">Sports</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">AboutUs</a></li>
+      <li><a href="#">Trainning</a></li>
+      <li><a href="#">Community</a></li>
+    </nav>
+    <button class="botoncontacto ocultar botonContactoDesk">Contact</button>
+  </header>
+
+  <!-- Primer contenedor (Tenista e info torneo)-->
+  <article class="contenedorEvento">
+    <img src="./img/tennisPlayer.png" alt="">
+    <div class="contEvento">
+      <p class="tituloEvento">LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</p>
+      <p class="infoEvento">The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the
+        action!</p>
+      <button class="botonEvento">Contact</button>
+    </div>
+  </article>
+
+  <!-- Segundo contenedor -->
+  <article class="infoTenistas">
+    <p class="tituloInfoTenistas">What´s different between pros?</p>
+    <p class="textoInfoTenistas"></p>
+  </article>
+
+  <!-- contenedor contenido -->
+  <section class="marcoContenido">
+    <article class="contenido">
+      <div class="contenidoTitulo">
+        <button>01</button>
+        <div class="marcoTexto">
+          <p>Track company - wide progress</p>
+        </div>
+      </div>
+      <p class="contenidoTexto">Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem,
+        tempus
+        pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+    </article>
+
+    <article class="contenido">
+      <div class="contenidoTitulo">
+        <button>02</button>
+        <div class="marcoTexto">
+          <p>Advance built-in reports</p>
+        </div>
+      </div>
+      <p class="contenidoTexto">Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem,
+        tempus
+        pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+    </article>
+  </section>
+  <div class="marcoContenido">
+    <article class="contenido">
+      <div class="contenidoTitulo">
+        <button>03</button>
+        <div class="marcoTexto">
+          <p>Everything you need in one place</p>
+        </div>
+      </div>
+      <p class="contenidoTexto">Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem,
+        tempus
+        pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+    </article>
+  </div>
+
+  <!-- mejor del mes -->
+  <section class="contenedorMes ocultaDesk" id="oculto">
+
+    <h2>Best of the month</h2>
+
+    <div class="ocultaDesk">
+      <div class="marco">
+        <img src="./img/Lebron.png" alt="">
+        <p class="tituloMes">Lebron</p>
+        <p class="textoMes">Etiam fer
+          mentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+      </div>
+      <div class="ocultar">
+        <div class="marco">
+          <img src="./img/Sanyo.png" alt="">
+          <p class="tituloMes">Sanyo</p>
+          <p class="textoMes">Etiam fer
+            mentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci
+            varius
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+        </div>
+        <div class="marco">
+          <img src="./img/Navarro.png" alt="">
+          <p class="tituloMes">Navarro</p>
+          <p class="textoMes">Etiam fer
+            mentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci
+            varius
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+        </div>
+      </div>
+    </div>
+    <button class="botonMes ocultaDesk" id="oculto">More</button>
+  </section>
+
+  <section class="playerMes ocultar">
+    <h2>Best of the month</h2>
+
+    <article class="playersContainer">
+      <!-- jugador 1 -->
+      <div class="marcoDesk">
+        <img src="./img/Lebron.png" alt="" class="imgMesDesk">
+        <p class="tituloMesDesk">Lebron</p>
+        <p class="textoMesDesk">Etiam fer
+          mentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+      </div>
+
+      <!-- jugador 2 -->
+      <div class="marcoDesk">
+        <img src="./img/Sanyo.png" alt="" class="imgMesDesk">
+        <p class="tituloMesDesk">Sanyo</p>
+        <p class="textoMesDesk">Etiam fer
+          mentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+      </div>
+
+      <!-- jugador 3 -->
+      <div class="marcoDesk">
+        <img src="./img/Navarro.png" alt="" class="imgMesDesk">
+        <p class="tituloMesDesk">Navarro</p>
+        <p class="textoMesDesk">Etiam fer
+          mentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+      </div>
+    </article>
+    <button class="botonMesDesk" id=>More</button>
+  </section>
+
+
+  <!-- contenedor equipos -->
+  <div class="equipos">
+    <div class="equiposDesk">
+      <h2 class="tituloEquipos">Get to know the best </h2>
+      <h2 class="tituloEquipos">teams of the year</h2>
+    </div>
+
+    <button class="botonEquipos">Go for it</button>
+  </div>
+
+
+  <!-- footer visible en móvil -->
+  <footer class="ocultaDesk">
+    <form action="#" method="post">
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Update in your inbox...">
+      <input type="submit" name="submit" value="Go" class="botonEnvio">
+    </form>
+
+    <div class="enlaces">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Trainning</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="iconos">
+      <i class="fab fa-facebook-square" style="color: #ffffff;"></i>
+      <i class="fab fa-youtube-square" style="color: #ffffff;"></i>
+      <i class="fab fa-twitter-square" style="color: #ffffff;"></i>
+      <i class="fab fa-pinterest-square" style="color: #ffffff;"></i>
+      <i class="fab fa-instagram" style="color: #ffffff;"></i>
+    </div>
+    <div class="finFooter">
+      <img src="./img/SportitWhite.png" alt="">
+      <p>Copyright 2020. All Rights Reserved</p>
+    </div>
+
+  </footer>
+
+  <!-- footer visible en desktop -->
+  <footer class="ocultar">
+    <div class="finFooter">
+      <img src="./img/SportitWhite.png" alt="">
+      <div class="iconos">
+        <i class="fab fa-facebook-square" style="color: #ffffff;"></i>
+        <i class="fab fa-youtube-square" style="color: #ffffff;"></i>
+        <i class="fab fa-twitter-square" style="color: #ffffff;"></i>
+        <i class="fab fa-pinterest-square" style="color: #ffffff;"></i>
+        <i class="fab fa-instagram" style="color: #ffffff;"></i>
+      </div>
+    </div>
+
+    <div class="enlaces">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Trainning</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="formText">
+      <form action="#" method="post">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Update in your inbox...">
+        <input type="submit" name="submit" value="Go" class="botonEnvio">
+
+      </form>
+      <p class="textAfter">Copyright 2020. </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

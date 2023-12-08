@@ -1,0 +1,3 @@
+Software libre
+Software propietario
+Software prueba
